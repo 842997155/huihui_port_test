@@ -22,8 +22,10 @@ class AccessToken(unittest.TestCase): # 继承测试父类unittest.TestCase
         self.appid=str(appid)
         self.secret=str(secret)
         self.result=str(int(result))
-        self.code=int(code)
-        self.expires_in=int(expires_in)
+        if code!='':
+            self.code=int(code)
+        if expires_in!='':
+            self.expires_in=int(expires_in)
     def description(self):
         """
 

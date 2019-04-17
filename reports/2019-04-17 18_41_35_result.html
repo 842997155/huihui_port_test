@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-04-17 00:05:35</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.699926</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Failure 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-04-17 18:41:35</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.722294</p>
+<p class='attribute'><strong>Status:</strong> Pass 3</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -236,35 +236,33 @@ function showOutput(id, name) {
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr class='failClass'>
+<tr class='passClass'>
     <td>paramunittest.AccessToken_1</td>
     <td>secretnone</td>
     <td>1</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='ft2.1' class='none'>
-    <td class='failCase'><div class='testcase'>test_AccessToken</div></td>
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_AccessToken</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
 
-    <div id='div_ft2.1' class="popup_window">
+    <div id='div_pt2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft2.1: Traceback (most recent call last):
-  File "C:\Users\Administrator\PycharmProjects\huihui_port_test\test_cases\OneTests.py", line 44, in test_AccessToken
-    self.assertEqual(self.response['errcode'], self.code)
-AssertionError: 41002 != '41003'
+pt2.1: 41002
+41002
 
 
         </pre>
@@ -274,35 +272,33 @@ AssertionError: 41002 != '41003'
     </td>
 </tr>
 
-<tr class='failClass'>
+<tr class='passClass'>
     <td>paramunittest.AccessToken_2</td>
     <td>secreterror</td>
     <td>1</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
     <td>0</td>
     <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
 </tr>
 
-<tr id='ft3.1' class='none'>
-    <td class='failCase'><div class='testcase'>test_AccessToken</div></td>
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_AccessToken</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
+        pass</a>
 
-    <div id='div_ft3.1' class="popup_window">
+    <div id='div_pt3.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft3.1: Traceback (most recent call last):
-  File "C:\Users\Administrator\PycharmProjects\huihui_port_test\test_cases\OneTests.py", line 44, in test_AccessToken
-    self.assertEqual(self.response['errcode'], self.code)
-AssertionError: 40125 != '40125'
+pt3.1: 40125
+40125
 
 
         </pre>
@@ -315,8 +311,8 @@ AssertionError: 40125 != '40125'
 <tr id='total_row'>
     <td colspan='2'>Total</td>
     <td>3</td>
-    <td>1</td>
-    <td>2</td>
+    <td>3</td>
+    <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
 </tr>
